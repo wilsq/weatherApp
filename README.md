@@ -2,6 +2,8 @@
 
 WeatherApp on Node.js:llä ja Expressillä toteutettu sääsovellus, joka hakee ajankohtaiset säätiedot OpenWeatherMap-rajapinnasta. Sovellus on tehty harjoitustyönä Node.js- ja web-kehityksen perusteiden opiskeluun.
 
+Sovellus löytyy Render linkistä: https://weatherapp-9n1u.onrender.com/
+
 ## Ominaisuudet
 
 - Käyttäjä voi hakea sään syöttämällä kaupungin nimen.
@@ -17,7 +19,7 @@ WeatherApp on Node.js:llä ja Expressillä toteutettu sääsovellus, joka hakee 
 - OpenWeatherMap API
 - CSS (oma tyyli + Unsplash-taustakuva)
 
-Sovellus löytyy Render linkistä: https://weatherapp-9n1u.onrender.com/
+
 
 
 ## Käyttöönotto paikallisesti

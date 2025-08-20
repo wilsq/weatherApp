@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+
+    <link rel="stylesheet" type="text/css" href="/style/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Current Weather</h1>
+
+      <form action="/" method="POST">
+        <input type="text" name="city" placeholder="Enter city name" required />
+        <button type="submit" id="submitButton">Search</button>
+      </form>
+      <% if (weather) { %>
+      <div class="weather-result">
+        <% if (iconUrl) { %> <% if (weatherCity) { %>
+        <div class="city-name"><%= weatherCity %></div>
+        <% } %>
+        <img src="<%= iconUrl %>" alt="weather icon" />
+        <% } %> <%= weather %>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
